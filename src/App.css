@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+div#videos {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+div#videos > video {
+  background: black;
+  width: 50vw;
+  height: 100%;
+  margin: 1em;
+}
+
+Button {
+  margin: 0.25rem;
+}
